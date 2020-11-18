@@ -1,6 +1,6 @@
 # Workshop Robot Framework - Database testing
 Welcome to the github page of the RF db testing workshop.
-Here you find usefull links, tips & tricks and after the workshop also solutions for the exercises.
+Here you find useful links, tips & tricks and after the workshop also solutions for the exercises.
 
 ## Installation
 For this workshop you need, next to Robot Framework, the database library and the python DB API package.
@@ -43,6 +43,8 @@ Write queries for all scenarios listed below and check the results in a SQL edit
 ## Exercise 2 :: The first queries in RF
 For this exercise, we’ll use the `cursist` table in the database.
 Create a new script that connects to the database.
+
+**Tip** Make sure you close your connection, even if your test fails.
 
 1. Enter a new record in the `cursist` table using an `INSERT` statement. Note that the date field isn’t mandatory.
 1. Add a check (execute a `SELECT` statement) to check if the record is stored correctly in the database
