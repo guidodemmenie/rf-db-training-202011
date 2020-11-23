@@ -1,0 +1,7 @@
+[default]
+dbapiModuleName=yourmodule
+dbName=yourdbnamehere
+dbUsername=yourusername
+dbPassword=yoursecretpassword
+dbHost=yoururltodb
+dbPort=yourdbport
