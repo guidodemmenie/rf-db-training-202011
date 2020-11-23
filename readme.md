@@ -49,3 +49,25 @@ Create a new script that connects to the database.
 1. Enter a new record in the `cursist` table using an `INSERT` statement. Note that the date field isn’t mandatory.
 1. Add a check (execute a `SELECT` statement) to check if the record is stored correctly in the database
 1. **Bonus:** Create a separate testcase that deletes (only) the record created in the first step of this exercise.
+
+## Exercise 3 :: Checking the query result
+For this exercise we'll use the `zoekresultaat` table in the database.
+
+1. Create a new testsuite for this exercise.
+1. In this suite, coinnect to the database and write some validations that:
+    1. check that there are a total of 24 records in the table
+    1. Check that there is 1 title with "Python" in the name
+    1. Check that the "Complete Guido to Test Automation" costs 33.65
+1. Place each query (and its assertions) in a separate testcase.
+
+## Exercise 4 :: A modular approach
+For this exercise we'll use the `zoekresultaat` table in the database.
+
+1. Create a new testsuite for this exercise.
+1. Let the script connect to the database.
+    1. Set your credentials in a separate config file.
+1. Write a query that retrieves any item from the table using the id.
+    1. Place this keyword in a separate resourcefile.
+1. Check the result for "title", "availability" and "price".
+    1. Use a separate keyword for this, which in turn calls the query keywork from the previous step.
+1. Finally, use string conversion where necessary.
