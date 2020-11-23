@@ -12,6 +12,10 @@ database library:
 DB API voor MySQL:  
 `pip install pymysql`
 
+Databaselibrary [keyword](http://franz-see.github.io/Robotframework-Database-Library/api/1.2.2/DatabaseLibrary.html) documentation.
+
+Full database-library page is [here](http://franz-see.github.io/Robotframework-Database-Library/)
+
 ## SQL
 There are several pages that explain basic SQL that we will be using during the workshop.
 
@@ -19,14 +23,12 @@ There are several pages that explain basic SQL that we will be using during the 
  - [Guru99](https://www.guru99.com/sql.html)
  - [Youtube filmpje](https://www.youtube.com/watch?v=OfM5lC-7R4Y)
 
-
 ## SQL editor
 Though not mandatory, it can be useful to test out some of the queries before putting them in your Robot Framework script by first running them from a SQL editor in a database client application. There are many database clients available. 
 
 Two popular ones are:
  - [DB visualizer](https://www.dbvis.com/download/11.0)
  - [DBeaver](https://dbeaver.io/)
-
 
 # Exercises
 
@@ -54,10 +56,10 @@ Create a new script that connects to the database.
 For this exercise we'll use the `zoekresultaat` table in the database.
 
 1. Create a new testsuite for this exercise.
-1. In this suite, coinnect to the database and write some validations that:
+1. In this suite, connect to the database and write some validations that:
     1. check that there are a total of 24 records in the table
     1. Check that there is 1 title with "Python" in the name
-    1. Check that the "Complete Guido to Test Automation" costs 33.65
+    1. Check that the "Complete Guide to Test Automation" costs 33.65
 1. Place each query (and its assertions) in a separate testcase.
 
 ## Exercise 4 :: A modular approach
